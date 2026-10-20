@@ -1,0 +1,11 @@
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP"]   # ошибки, pyflakes, предупреждения, сортировка импортов, багопасные паттерны
+fixable = ["ALL"]
+
+[tool.ruff.format]
+indent-style = "space"
+quote-style = "double"
